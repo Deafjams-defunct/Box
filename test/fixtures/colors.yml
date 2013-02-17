@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  red: 1.5
+  green: 1.5
+  blue: 1.5
+
+two:
+  red: 1.5
+  green: 1.5
+  blue: 1.5

@@ -1,0 +1,29 @@
+<h1>Listing blocks</h1>
+
+<table>
+  <tr>
+    <th>Red</th>
+    <th>Green</th>
+    <th>Blue</th>
+    <th>Float</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @blocks.each do |block| %>
+  <tr>
+    <td><%= block.red %></td>
+    <td><%= block.green %></td>
+    <td><%= block.blue %></td>
+    <td><%= block.float %></td>
+    <td><%= link_to 'Show', block %></td>
+    <td><%= link_to 'Edit', edit_block_path(block) %></td>
+    <td><%= link_to 'Destroy', block, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Block', new_block_path %>

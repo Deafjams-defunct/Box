@@ -1,0 +1,16 @@
+<div class="text_post">
+
+<p>
+  <b>Title:</b>
+  <%= @text_post.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @text_post.body %>
+</p>
+
+</div>
+
+<%= link_to 'Edit', edit_text_post_path(@text_post) %> |
+<%= link_to 'Back', text_posts_path %>

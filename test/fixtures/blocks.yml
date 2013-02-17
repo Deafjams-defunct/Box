@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  red: 1.5
+  green: 1.5
+  blue: MyString
+  float: MyString
+
+two:
+  red: 1.5
+  green: 1.5
+  blue: MyString
+  float: MyString

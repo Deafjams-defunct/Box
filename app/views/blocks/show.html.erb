@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Red:</b>
+  <%= @block.red %>
+</p>
+
+<p>
+  <b>Green:</b>
+  <%= @block.green %>
+</p>
+
+<p>
+  <b>Blue:</b>
+  <%= @block.blue %>
+</p>
+
+<p>
+  <b>Float:</b>
+  <%= @block.float %>
+</p>
+
+
+<%= link_to 'Edit', edit_block_path(@block) %> |
+<%= link_to 'Back', blocks_path %>
